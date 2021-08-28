@@ -53,7 +53,7 @@ int ft_lstsize(t_list **stack)
 
 	len = 0; 
 	head = *stack;
-	while (head->next)
+	while (head)
 	{
 		head = head->next;
 		len++;
